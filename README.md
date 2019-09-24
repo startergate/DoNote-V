@@ -1,3 +1,8 @@
+# DoNote-V
+DoNote V Frontend
+
+어쩌다 보니 TypeScript다
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
