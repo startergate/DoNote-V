@@ -40,10 +40,18 @@ body {
     width: 100vw;
     padding: 0;
 }
+@media (min-width: 768px) {
+    .login .App-logo {
+        height: 250px;
+        margin: 30px;
+    }
+}
 
-.login .App-logo {
-    height: 250px;
-    margin: 30px;
+@media (max-width: 767px) {
+    .login .App-logo {
+        height: 33vw;
+        margin: 30px;
+    }
 }
 
 .loginBtn {
