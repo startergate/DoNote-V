@@ -4,6 +4,7 @@ import { hot } from 'react-hot-loader';
 import { Router, Route, Switch } from 'react-router-dom';
 
 import {Home, Manage, Note} from './pages/index';
+import logo from "./donoteLogo.png";
 import './App.css';
 
 const history = createBrowserHistory();
