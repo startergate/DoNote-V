@@ -20,7 +20,71 @@ const Login = styled.header`
   height: 100vh;
   width: 100vw;
   padding: 0;
+  
+  @media (min-width: 768px) {
+    height: 250px;
+    margin: 30px;
+  }
+  
+  @media (max-width: 767px) {
+    height: 33vw;
+    margin: 30px;
+  }
 `;
+
+const Logo = styled.img.attrs({
+  src: './donoteLogo.png'
+})`
+  height: 60px;
+  float: left;
+  
+  @media (min-width: 768px) {
+    height: 250px;
+    margin: 30px;
+  }
+  
+  @media (max-width: 767px) {
+    height: 33vw;
+    margin: 30px;
+  }
+`;
+
+const LoginBtn = styled.a.attrs({
+  href: "http://sid.donote.co:3000/user/login"
+})`
+  color: #3d414d;
+  text-decoration: none;
+  border: 1px solid #949494;
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 10px 20px;
+  background: #dddddd;
+  transition-property: background;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  
+  &:hover {
+    background: #949494;
+    transition-property: background;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+  }
+`;
+
+const Header = () => {
+  return (
+    <App>
+      <Login>
+        <Logo />
+        <LoginBtn>
+          SID로 로그인
+        </LoginBtn>
+      </Login>
+    </App>
+  )
+};
+
+export default Header;
 
 /*return (
   <div className="App">

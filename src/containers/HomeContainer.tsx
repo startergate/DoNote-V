@@ -1,6 +1,8 @@
 import React from "react";
 import { createGlobalStyle } from "styled-components";
 
+import HomeHeader from "../components/HomeHeader"
+
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
@@ -16,6 +18,7 @@ const HomeContainer = () => {
   return (
     <>
       <GlobalStyle />
+      <HomeHeader />
     </>
   )
 };
