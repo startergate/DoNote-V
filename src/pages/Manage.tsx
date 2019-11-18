@@ -1,7 +1,7 @@
 import React from "react";
 
 const Manage = () => {
-  return
+  return (<div />)
 };
 
 export default Manage;

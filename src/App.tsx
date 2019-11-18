@@ -3,7 +3,7 @@ import { createBrowserHistory } from 'history';
 import { hot } from 'react-hot-loader';
 import { Router, Route, Switch } from 'react-router-dom';
 
-import {Home, Manage, Note} from './pages/index';
+import { Home, Manage, Note } from './pages/index';
 import logo from "./donoteLogo.png";
 import './App.css';
 
@@ -14,8 +14,8 @@ const App: React.FC = () => {
   return (
     <Router history={history}>
       <Switch>
-        /*<Route path="/note" />
-        <Route path="/manage" />*/
+        <Route path="/note" component={Note} />
+        <Route path="/manage" component={Manage} />
         <Route path="/" component={Home} />
       </Switch>
     </Router>
