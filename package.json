@@ -11,14 +11,14 @@
     "@types/react-router-dom": "^5.1.0",
     "@types/styled-components": "^4.1.19",
     "history": "^4.10.1",
-    "react": "^16.9.0",
+    "react": "^16.12.0",
     "react-dom": "^16.9.0",
-    "react-hot-loader": "^4.12.14",
+    "react-hot-loader": "^4.12.18",
     "react-redux": "^7.1.1",
     "react-router-dom": "^5.1.0",
     "react-scripts": "3.2.0",
     "styled-components": "^4.4.0",
-    "typescript": "3.6.3"
+    "typescript": "3.7.2"
   },
   "scripts": {
     "start": "react-scripts start",
