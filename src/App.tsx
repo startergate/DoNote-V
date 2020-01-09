@@ -1,6 +1,5 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { createBrowserHistory } from 'history';
-import { hot } from 'react-hot-loader';
 import { Router, Route, Switch } from 'react-router-dom';
 
 import { Home, Manage, Note } from './pages/index';
