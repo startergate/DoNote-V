@@ -1,3 +1,13 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+}
+
 .App {
     text-align: right;
 }
