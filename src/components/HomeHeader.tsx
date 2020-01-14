@@ -3,7 +3,8 @@ import styled from "styled-components";
 
 
 const App = styled.div`
-  text-align: right
+  text-align: right;
+  height: 100vh;
 `;
 
 const Login = styled.header`
@@ -17,13 +18,13 @@ const Login = styled.header`
   font-size: calc(10px + 2vmin);
   text-align: right;
   color: white;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   padding: 0;
+  box-sizing: border-box;
   
   @media (min-width: 768px) {
-    height: 250px;
-    margin: 30px;
+    padding: 30px 30px;
   }
   
   @media (max-width: 767px) {
