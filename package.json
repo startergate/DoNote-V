@@ -2,7 +2,9 @@
   "name": "donote-v",
   "version": "2.0.0",
   "private": false,
+  "license": "MIT",
   "dependencies": {
+    "@startergate/sidts": "^0.0.7",
     "@types/history": "^4.7.4",
     "@types/jest": "24.9.0",
     "@types/node": "13.1.7",
