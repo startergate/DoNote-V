@@ -51,7 +51,7 @@ const Logo = styled.img.attrs({
 `;
 
 const LoginBtn = styled.a.attrs({
-  href: "http://sid.donote.co:3000/user/login"
+  href: `http://sid.donote.co:3000/user/login?goTo=http://${window.location.hostname}:5000/auth/catch`
 })`
   color: #3d414d;
   text-decoration: none;
