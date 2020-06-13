@@ -19,6 +19,7 @@ const NoteContainer = () => {
     <>
       <GlobalStyle />
       <Header />
+      <Note />
     </>
   )
 };

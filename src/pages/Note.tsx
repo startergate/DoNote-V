@@ -1,7 +1,8 @@
 import React from "react";
+import NoteContainer from "../containers/NoteContainer";
 
 const Note = () => {
-  return (<div />)
+  return (<NoteContainer />)
 };
 
 export default Note;
