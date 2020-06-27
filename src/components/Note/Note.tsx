@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const Note = () => {
+export const Note = () => {
     return (
         <>
 
