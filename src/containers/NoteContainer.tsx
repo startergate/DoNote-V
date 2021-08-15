@@ -2,6 +2,7 @@ import React from "react";
 import { createGlobalStyle } from "styled-components";
 
 import Header from "../components/Header";
+import {Note} from "../components/Note"
 
 const GlobalStyle = createGlobalStyle`
   body {
